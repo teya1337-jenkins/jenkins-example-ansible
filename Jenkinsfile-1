@@ -1,8 +1,8 @@
 pipeline {
-  agent {label 'linux'}
+  agent {label 'ansible-server-agent'}
 
   stages {
-    stage('Hello') {
+    stage('Ansible sever test') {
       steps {
         sh '''
           ansible --version
