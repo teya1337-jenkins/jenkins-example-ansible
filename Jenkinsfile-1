@@ -1,5 +1,5 @@
 pipeline {
-  agent {label 'ansible-agent'}
+  agent {label 'ansible-server-agent'}
 
   stages {
     stage('Ansible sever test') {
